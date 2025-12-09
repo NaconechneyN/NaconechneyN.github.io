@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+header {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #555;
+    font-size: 1.2em;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+h3 {
+    color: #2c3e50;
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.contact-info, .social-links {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #3498db;
+    margin-right: 15px;
+    font-weight: bold;
+    border: 1px solid #3498db;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.company-date {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Diseño responsivo para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .container {
+        padding: 20px;
+    }
+}
