@@ -122,3 +122,22 @@ ul {
     background: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+
+/* Estilo para botones de proyectos (Igual al header) */
+.btn-repo {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    border: 1px solid #3498db;
+    padding: 8px 15px; /* Un poco más de espacio interno */
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block; /* Importante para que se comporte como botón */
+    margin-top: 10px;
+}
+
+.btn-repo:hover {
+    background-color: #3498db;
+    color: #fff; /* Texto blanco al pasar el mouse */
+    cursor: pointer;
+}
