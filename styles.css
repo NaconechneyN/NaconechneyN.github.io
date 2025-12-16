@@ -141,3 +141,22 @@ ul {
     color: #fff; /* Texto blanco al pasar el mouse */
     cursor: pointer;
 }
+
+/* Estilo para el botón "Ver más repositorios" */
+.btn-view-all {
+    display: inline-block;
+    background-color: #2c3e50; /* Mismo color oscuro del header */
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 30px; /* Bordes bien redondeados */
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-view-all:hover {
+    background-color: #34495e; /* Un poco más claro al pasar el mouse */
+    transform: scale(1.05); /* Crece un poquito */
+    color: #ffffff;
+}
